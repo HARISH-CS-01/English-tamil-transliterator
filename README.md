@@ -5,6 +5,7 @@ TECH stack used:<br>
 Input to the program:
 English words <br>
 Output to the program:
-Tamil words
-Model:
-
+Tamil words <br>
+Algorithm: <br>
+Get the input from user 
+Make it as compatible tensor 
