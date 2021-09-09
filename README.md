@@ -14,4 +14,9 @@ Pass that Tensor to the Model <br>
 Get the output from the model <br>
 Post process the output to get in the tamil words (i.e model will produce the output tensor and convert these tensor into tamil sentence) <br>
 Model: <br>
-Two layer bidirectional LSTM used as encoder 
+Two layer bidirectional LSTM used as encoder<br>
+Attension meachnism is used  <br>
+Two layer bidirectional LSTM used as decoder <br>
+
+To summarise: <br>
+input -> preprocess -> Model (Encoder-Decoder-attension based) -> output (Numeric) -> post_process (make it tamil words)
