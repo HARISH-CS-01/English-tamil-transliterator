@@ -8,4 +8,7 @@ Output to the program:
 Tamil words <br>
 Algorithm: <br>
 Get the input from user 
-Make it as compatible tensor 
+Preprocess the input (Make it as words)
+Make it as compatible tensor
+Pass that Tensor to the Model
+Get the output from the model
